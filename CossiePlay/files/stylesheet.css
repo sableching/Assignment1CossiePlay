@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+
+
+body {background-color: #F4D03F;}
+
+body header {font-style: oblique;
+             color: #D35400;
+             font-weight: bold;
+             text-align: center;
+             font-size: 50px
+             }
+
+body ul.bar {list-style-type: none;
+             margin: 0;
+             padding: 0;
+             width: 200px;
+             background-color: #E67E22;
+             float: right;}
+
+body li a {display: block;
+           color: #FFFFFF;
+           padding: 40px 80px;
+           text-decoration: none;
+           border-bottom: 1px solid black;
+           font-family: Georgia;
+           font-size: 18px
+           }
+
+body li a:hover {background-color: #FFFFFF;
+                 color: #000000;}
+
+body li.active {background-color: #F5B041;}
+
+body div {margin: auto;
+          width: 15%;
+          padding: 10px;
+          }
+
+body button.here {margin-top: 10px;
+             font-size: 20px;
+             background-color: #7B241C;
+             color: #FFFFFF;
+             }
+
+body button.here:hover {background-color: #E6B0AA;
+                   color: #000000;}
+
+body button.sign {font-size: 20px;
+             background-color: #EB984E;
+             color: #FFFFFF;
+             margin-left: 120px;
+             width: 40%;
+             padding: 20px;}
+
+body button.sign:hover {background-color: #F5B041;
+                   color: #000000;}
+
+
+body h1.go {margin: auto;
+            width: 37%;
+            color: #196F3D;}
+
+body h1.in {margin: auto;
+            width: 55%;
+            color: #229954;}
+
+body h1.announce {text-decoration: underline;}
+
+body hr {width: 80%;
+         }
+
+body p, ul, ol {line-height: 1.3;}
+
+body img {float: right;
+          padding-right: 20px;}
+
+
+
+body footer {font-size: 16px;
+             
+             text-align:center;
+   
+             position: fixed;
+             bottom: 0px;
+
+             height:30px;
+          
+   width:100%;
+}
+
+body table {width: 30%;
+            height: 300px;
+            }
+
+body table.center {margin-left: auto;
+                   margin-right: auto;}
+
+body table, th, td {border: 1px solid #000000;}
+
+body th {background-color: #E74C3C;
+         padding: 5px;}
+
+body td {background-color: #F1948A;
+         padding: 5px;}
+
+body img.olaf {float: right;
+               margin-bottom: 20px;
+               margin-top: 20px;}
+
+body img.alice {margin-right: 150px;}
+
+body img.spiderman {float: left;
+                    margin-left: 150px;}
+
+body p, ul, ol, table {font-size: 18px;}
